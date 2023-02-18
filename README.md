@@ -16,7 +16,7 @@ Paprikacoin Specs
 * Ticker - PAPRY
 * Name - Paprikacoin
 * Address number start with 9
-* 
+
 
 What is Paprikacoin?
 -----------------
@@ -31,7 +31,7 @@ Development Process
 -------------------
 
 The `master` branch is regularly built and tested, but is not guaranteed to be
-completely stable. [Tags]([(https://github.com/paprika-network/paprikacoin)/tags]) are created
+completely stable. https://github.com/paprika-network/paprikacoin are created
 regularly to indicate new official, stable release versions of Paprikacoin Core.
 
 The contribution workflow is described in [CONTRIBUTING.md](CONTRIBUTING.md).
