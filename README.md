@@ -2,7 +2,6 @@ Paprikacoin Core
 ==================================
 
 * Official Site - https://paprikacoin.paprikaex.com
-* Official Pool - https://pool.paprikaex.com
 * Official Explorer - https://explorer.paprikaex.com
 
 Paprikacoin Specs
@@ -10,7 +9,9 @@ Paprikacoin Specs
 * P2P Port - 9898
 * RPC Port - 9899
 * Block Time - 1 min
-* Block Reward - 60 PAPRY (3000 reward, 2000 donation)
+* Block Reward - 60 PAPRY (10% to paprikaex, 10% to team and 20% to community)
+* Block speed - 1 minute
+* Halving evry 2,100,000 blocks
 
 What is Paprikacoin?
 -----------------
