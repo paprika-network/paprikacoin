@@ -1,0 +1,2 @@
+# Paprikacoin - Community Ideas
+

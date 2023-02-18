@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Paprikacoin Core
+Comment=Connect to the Paprikacoin P2P Network
+Exec=paprikacoin-qt %u
+Terminal=false
+Type=Application
+Icon=paprikacoin128
+MimeType=x-scheme-handler/paprikacoin;
+Categories=Office;Finance;
+Name[it_IT]=paprikacoin-qt.desktop

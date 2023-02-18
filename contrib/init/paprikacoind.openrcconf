@@ -1,0 +1,33 @@
+# /etc/conf.d/paprikacoind: config file for /etc/init.d/paprikacoind
+
+# Config file location
+#PAPRIKAD_CONFIGFILE="/etc/paprikacoin/paprikacoin.conf"
+
+# What directory to write pidfile to?  (created and owned by $PAPRIKAD_USER)
+#PAPRIKAD_PIDDIR="/var/run/paprikacoind"
+
+# What filename to give the pidfile
+#PAPRIKAD_PIDFILE="${PAPRIKAD_PIDDIR}/paprikacoind.pid"
+
+# Where to write paprikacoind data (be mindful that the blockchain is large)
+#PAPRIKAD_DATADIR="/var/lib/paprikacoind"
+
+# User and group to own paprikacoind process
+#PAPRIKAD_USER="paprikacoin"
+#PAPRIKAD_GROUP="paprikacoin"
+
+# Path to paprikacoind executable
+#PAPRIKAD_BIN="/usr/bin/paprikacoind"
+
+# Nice value to run paprikacoind under
+#PAPRIKAD_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+#PAPRIKAD_OPTS=""
+
+# The timeout in seconds OpenRC will wait for paprikacoind to terminate
+# after a SIGTERM has been raised.
+# Note that this will be mapped as argument to start-stop-daemon's
+# '--retry' option, which means you can specify a retry schedule
+# here. For more information see man 8 start-stop-daemon.
+PAPRIKAD_SIGTERM_TIMEOUT=60

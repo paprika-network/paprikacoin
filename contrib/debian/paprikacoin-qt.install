@@ -1,0 +1,6 @@
+usr/local/bin/paprikacoin-qt usr/bin
+share/pixmaps/paprikacoin32.xpm usr/share/pixmaps
+share/pixmaps/paprikacoin16.xpm usr/share/pixmaps
+share/pixmaps/paprikacoin128.png usr/share/pixmaps
+debian/paprikacoin-qt.desktop usr/share/applications
+debian/paprikacoin-qt.protocol usr/share/kde4/services/

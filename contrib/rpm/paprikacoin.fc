@@ -1,0 +1,8 @@
+/usr/bin/paprikacoin-cli		--	gen_context(system_u:object_r:paprikacoin_exec_t,s0)
+/usr/sbin/paprikacoind		--	gen_context(system_u:object_r:paprikacoin_exec_t,s0)
+/usr/lib(64)?/paprikacoin/paprikacoind		--	gen_context(system_u:object_r:paprikacoin_exec_t,s0)
+
+/etc/paprikacoin(/.*)?		gen_context(system_u:object_r:paprikacoin_conf_t,s0)
+/var/lib/paprikacoin(/.*)?		gen_context(system_u:object_r:paprikacoin_var_lib_t,s0)
+
+(/var)?/run/paprikacoind(/.*)?   gen_context(system_u:object_r:paprikacoin_var_run_t,s0)

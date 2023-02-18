@@ -1,0 +1,23 @@
+FROM arm32v7/ubuntu:latest
+
+MAINTAINER cade <cade.call@mediciventures.com>
+
+EXPOSE $RPCPORT
+
+EXPOSE $PORT
+
+RUN useradd -ms /bin/bash paprikacoin
+
+RUN mkdir /etc/paprikacoin
+
+RUN mkdir /var/lib/paprikacoin
+
+RUN chown paprikacoin:paprikacoin /etc/paprikacoin /var/lib/paprikacoin
+
+WORKDIR /home/paprikacoin
+
+COPY --chown=paprikacoin:paprikacoin linux64/* ./run.sh /home/paprikacoin/
+
+USER paprikacoin
+
+CMD ["/home/paprikacoin/run.sh"]
