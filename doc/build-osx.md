@@ -47,8 +47,8 @@ from the root of the repository.
 
 1. Clone the Paprikacoin Core source code:
     ```shell
-    git clone https://github.com/JustAResearcher/Paprikacoin
-    cd Paprikacoin
+    git clone https://github.com/paprika-network/paprikacoin
+    cd paprikacoin
     ```
 
 2.  Build paprikacoin-core:
