@@ -180,8 +180,9 @@ public:
 
 
          vSeeds.emplace_back("seed.paprikaex.com", false);
-	     vSeeds.emplace_back("seed1.paprikaex.com", false);
-	     vSeeds.emplace_back("seed2.paprikaex.com", false); 
+	 vSeeds.emplace_back("seed1.paprikaex.com", false);
+	 vSeeds.emplace_back("seed2.paprikaex.com", false);
+	 vSeeds.emplace_back("seed3.paprikaex.com", false);
 
 
         // Address start with M
@@ -205,7 +206,8 @@ public:
             {
             	{
             	    {0, uint256S("0x000000593fb70307466b94200bb12781a26d956239576eb0dbd820f8cff65c08")},
-					{240, uint256S("0x000204ab6b71ceb9d6f4ef3371b3097b36eb66739fdfcb35622f06e449eccd5e")},
+		{240, uint256S("0x000204ab6b71ceb9d6f4ef3371b3097b36eb66739fdfcb35622f06e449eccd5e")},
+		{4000, uint256S("0x000000001d2de99f27372cbabfd79ec083e45c85396176e1a2a9f97fe22e0783")},
                     
             	}
             }
