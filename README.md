@@ -1,8 +1,8 @@
 Paprikacoin Core
 ==================================
 
-* Official Site - https://paprikacoin.paprikaex.com
-* Official Explorer - https://explorer.paprikaex.com
+* Official Site - https://paprikacoin.org
+* Official Explorer - https://explorer.paprikacoin.org
 
 Paprikacoin Specs
 -----------------
