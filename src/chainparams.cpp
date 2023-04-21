@@ -183,9 +183,11 @@ public:
 	 vSeeds.emplace_back("seed1.paprikacoin.org", false);
 	 vSeeds.emplace_back("seed2.paprikacoin.org", false);
 	 vSeeds.emplace_back("seed3.paprikacoin.org", false);
+	 vSeeds.emplace_back("seed4.paprikacoin.com", false);
+	 vSeeds.emplace_back("seed5.paprikacoin.com", false);
 
 
-        // Address start with M
+        // Address start with 9
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,20);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,122);
         base58Prefixes[SECRET_KEY] =     std::vector<unsigned char>(1,112);
@@ -211,6 +213,7 @@ public:
 		{10753, uint256S("0x00000000000f07503e7e309293ee1cda9b2c54b07904559e10d6cc552ff8976f")},
 		{54415, uint256S("0x0000000000017830df3762327e4b8332c52e88ef5ea04489ed42a975299146c4")},
 		{77168, uint256S("0x000000000138ecf52aab7d6af74df391e03ff793729ed17d23db9d48961dfb21")},
+		{88944, uint256S("0x00000000001120ad65a62e5a31eb5530f36118b8d449ab5d44f9087f4529bef0")},
                     
             	}
             }
