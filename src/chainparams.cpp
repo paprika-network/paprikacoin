@@ -179,12 +179,12 @@ public:
         assert(genesis.hashMerkleRoot == uint256S("0xe8916cf6592c8433d598c3a5fe60a9741fd2a997b39d93af2d789cdd9d9a7390"));
 
 
-         vSeeds.emplace_back("seed.paprikacoin.org", false);
+         vSeeds.emplace_back("5.75.160.251", false);
+	 vSeeds.emplace_back("95.216.136.194", false);
+	 vSeeds.emplace_back("162.55.185.4", false);
+	 vSeeds.emplace_back("66.23.231.118", false);
+	 vSeeds.emplace_back("seed.paprikacoin.org", false);
 	 vSeeds.emplace_back("seed1.paprikacoin.org", false);
-	 vSeeds.emplace_back("seed2.paprikacoin.org", false);
-	 vSeeds.emplace_back("seed3.paprikacoin.org", false);
-	 vSeeds.emplace_back("seed4.paprikacoin.com", false);
-	 vSeeds.emplace_back("seed5.paprikacoin.com", false);
 
 
         // Address start with 9
