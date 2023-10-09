@@ -180,6 +180,11 @@ public:
 
 
          vSeeds.emplace_back("49.12.78.92", false);
+	 vSeeds.emplace_back("95.217.181.105", false);
+	 vSeeds.emplace_back("142.132.162.100", false);
+	 vSeeds.emplace_back("23.88.57.18", false);
+	 vSeeds.emplace_back("65.109.166.172", false);
+	 vSeeds.emplace_back("65.109.130.16 ", false);
 	 vSeeds.emplace_back("49.12.33.12", false);
 	 vSeeds.emplace_back("162.55.185.4", false);
 	 vSeeds.emplace_back("49.13.55.87", false);
