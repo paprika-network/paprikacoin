@@ -36,7 +36,7 @@ make install
 # Configure Paprikacoin Core to use our own-built instance of BDB
 cd $PAPRIKA_ROOT
 PATH=$(echo "$PATH" | sed -e 's/:\/mnt.*//g') # strip out problematic Windows %PATH% imported var
-cd depends
+cd ../depends
 make HOST=x86_64-w64-mingw32
 cd ..
 ./autogen.sh # not required when building from tarball
